@@ -1,12 +1,13 @@
 'use strict'
 
-const http = require('http')
+const Express = require('express')
 
-const reqHandler = require('./routes')
-const PORT = 4000
+const app = Express()
+const PORT = 3030
+const host = 'localhost'
 
-const server = http.createServer(reqHandler)
+app.listen(PORT, console.log(`server running on http://${host}:${PORT}`))
 
-server.listen(PORT, 'localhost', () => {
-  console.log(`Server running on http://localhost:${PORT}`)
+app.get('/', (req, res) => {
+  res.send('hai hai hai')
 })
