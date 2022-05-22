@@ -1,0 +1,24 @@
+{
+  "name": "learn-nodejs",
+  "version": "0.0.0",
+  "description": "basics of node js & npm",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HonfeiZenge/learn-nodejs.git"
+  },
+  "author": "HonfeiZenge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HonfeiZenge/learn-nodejs/issues"
+  },
+  "homepage": "https://github.com/HonfeiZenge/learn-nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
